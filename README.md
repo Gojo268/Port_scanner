@@ -46,48 +46,6 @@ Protocols: ['tcp']
 Open TCP Ports: [22, 80, 443]
 ```
 
-## Overall Flow Diagram
-
-Program Starts
-      │
-      ▼
-Import python-nmap
-      │
-      ▼
-Create PortScanner Object
-      │
-      ▼
-Ask User for IP
-      │
-      ▼
-Ask User for Scan Type
-      │
-      ▼
-        ┌─────────────┐
-        │User Choice? │
-        └─────────────┘
-          │   │   │
-          ▼   ▼   ▼
-        SYN UDP Comprehensive
-          │   │   │
-          ▼   ▼   ▼
- Execute Nmap Scan
-          │
-          ▼
-Get Scan Information
-          │
-          ▼
-Display Host Status
-          │
-          ▼
-Display Protocols
-          │
-          ▼
-Display Open Ports
-          │
-          ▼
-        Program Ends
-        
 ## Skills Demonstrated
 
 * Python Programming
